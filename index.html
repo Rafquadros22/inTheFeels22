@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+    <title>In the feels</title>
+</head>
+<body>
+  
+    <nav id = "nav-head" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">In the feels</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+       <a id="anger-btn"  class="nav-item nav-link text-dark"  href="#">Angry</a>
+      <a id= "happy-btn" class="nav-item nav-link text-dark"  href="#" >Happy</a>
+      <a id="sad-btn" class="nav-item nav-link text-dark" href="#">Sad</a>
+      <a id="disgust-btn"  class="nav-item nav-link text-dark" href="#">Disgusted</a>
+      <a id="suprise-btn"class="nav-item nav-link text-dark" href="#">Suprised</a>
+  
+    </div>
+  </div>
+</nav>
+ 
+
+
+
+
+
+  
+     <div class="container ">
+  <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img id="image-display" src="" class="card-img-top \" alt="hold my place" height="320" width="620"/>
+            <div class="card-body ">
+              <h5 id="emotion-dis" class="card-title"></h5>    
+              <form action="/action_page.php">
+                <input type="text" id="inp_test" class="input-box w-50 h-25" accept=".jpeg*"><br /><br />
+                <input type="button" id="btn_test" value="submit" class="submitbtn w-25 h-25" >
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      
+      
+        <div class="col mb-4">
+          <div id="video-card"class="card">
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="video" src="" class="embed-responsive-item">  <input type="button" id="next_video" value="submit" class="submitbtn w-25 h-25" >   </iframe>
+            </div>
+            <h3></h3>
+            <div class="description"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    
+    <footer class="footer bg-dark">
+      <div class="fixed-bottom">
+        <small>Copyright ©</small>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
